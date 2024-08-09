@@ -21,3 +21,9 @@ console.log(namme.length)
 console.log(namme.toUpperCase());
 console.log(namme.charAt(2));
 console.log(namme.indexOf());
+
+//spend some time for wirte a article on string function
+
+const url = "www.vedantwedekar.com"
+console.log(url.replace('vedant','athrav'))
+   
