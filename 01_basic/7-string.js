@@ -5,6 +5,7 @@ let coding_level = " = 99+"
 
 console.log(name + coding_level);
 
+
 //string interplilation
 //new way 
 
@@ -17,6 +18,8 @@ const namme = new String (`vedantgc`);
 console.log(namme[0]);
 console.log(namme.__proto__)//for exploring the object 
 
+/////////////////////
+
 console.log(namme.length)
 console.log(namme.toUpperCase());
 console.log(namme.charAt(2));
@@ -26,4 +29,16 @@ console.log(namme.indexOf());
 
 const url = "www.vedantwedekar.com"
 console.log(url.replace('vedant','athrav'))
+console.log(url.includes('vedant'))
+
+//////////////////////////////
+
+const wrt = "   doctor  sachin ";
+console.log(wrt);
+console.log(wrt.trim());
+
+//////////////////////////
    
+
+let rwt = "ved-pakki-athu-mutthu";
+console.log(rwt.split('-'))
