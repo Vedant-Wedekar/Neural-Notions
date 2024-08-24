@@ -45,40 +45,32 @@ function prog (name)
 }
 
 console.log(prog('radhika'));
+
+    //in this code im tried to call the progg which some ststement whivh willl print with the help of of name 
+    //in first we include the if condition for know the passing value is empty or not we also include the default value ved  for it 
     
 
 // -----------------------------------------------------------------------------
 
 
+//get multi ple value by use (...)
 
+//  1   for  single output
+function mutli_value1 (item){
+    return item ;
 
+}
 
+console.log(mutli_value1 (200,300,400,))
 
+//  2  for multiple output
 
+function mutli_value2 (...item){
+    return item ;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(mutli_value2 (200,300,400,))
 
 
 
