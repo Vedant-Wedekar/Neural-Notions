@@ -44,7 +44,7 @@ function prog (name)
     }
 }
 
-console.log(prog('radhika'));
+// console.log(prog('radhika'));
 
     //in this code im tried to call the progg which some ststement whivh willl print with the help of of name 
     //in first we include the if condition for know the passing value is empty or not we also include the default value ved  for it 
@@ -61,7 +61,7 @@ function mutli_value1 (item){
 
 }
 
-console.log(mutli_value1 (200,300,400,))
+// console.log(mutli_value1 (200,300,400,))
 
 //  2  for multiple output
 
@@ -70,7 +70,36 @@ function mutli_value2 (...item){
 
 }
 
-console.log(mutli_value2 (200,300,400,))
+// console.log(mutli_value2 (200,300,400,))
+
+
+/////////////////////////////
+
+//create  a prog for sending a onject as parameter 
+
+const gamer = {
+    name:'vedant',
+    age:19
+}
+function esports (vc){
+    console.log(`${vc.name} the world championship `)
+}
+esports (gamer);
+
+//create  a prog for sending a array as parameter 
+// 
+
+let poke = [1,2,3,4,5]
+
+function tournament (vc){
+    console.log(`${vc[1]} the world pokemon championship `)
+    return vc[3]// by return the value
+}
+
+tournament (poke);
+
+console.log(tournament (poke));
+
 
 
 
