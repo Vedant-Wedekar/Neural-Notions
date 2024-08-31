@@ -6,8 +6,9 @@ if(true){
     
     
     //in this case just c gone print not a abd b 
+
     
-    0
+    
     function one(){
         const name=`vedant
         `
