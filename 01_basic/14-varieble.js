@@ -22,4 +22,34 @@ if(true){
         two()
     }
     one()
-    
+
+
+
+    if(true){
+        const user_name = "vedant"
+
+        if(user_name){
+            const name = ""
+        }
+
+    }
+    console.log(user_name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
