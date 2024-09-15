@@ -3,6 +3,7 @@ if(true){
     const b =20 
     var c = 30 
     }
+
     //in this case just c gone print not a abd b 
     function one(){
         const name=`vedant
@@ -16,6 +17,7 @@ if(true){
     
         two()
     }
+
     one()
     if(true){
         const user_name = "vedant"
@@ -26,12 +28,10 @@ if(true){
     }
     // console.log(user_name)
 
-
 const addone = function (num)
 {
     return num + 1
 }
-
 addone(5)
 console.log()
 
